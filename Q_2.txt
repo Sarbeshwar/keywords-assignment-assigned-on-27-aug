@@ -1,0 +1,19 @@
+
+class demo
+{
+	demo()
+	{
+		System.out.println("default constructor called");
+	}
+	demo(int n)
+	{
+		this();
+	}
+}
+public class Constructor
+{
+	public static void main(String[] args)
+	{
+		demo obj=new demo(10);
+	}
+}

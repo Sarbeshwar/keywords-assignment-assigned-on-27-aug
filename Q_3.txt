@@ -1,0 +1,14 @@
+final class demo_1
+{
+  public static void fun()
+  {
+	  System.out.println("now cant be inherited");
+  }
+}
+public class further
+{
+	public static void main(String[] args)
+	{
+		demo_1.fun();
+	}
+}

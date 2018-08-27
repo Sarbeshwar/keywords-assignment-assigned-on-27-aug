@@ -1,0 +1,16 @@
+class A
+{
+	public static void a() 
+	{
+		System.out.println("hello sir assignment evaluate karlo");
+	}
+	
+}
+class App extends A{}
+public class no_object
+{
+	public static void main(String[] args)
+	{
+		App.a();
+	}
+}
